@@ -1,0 +1,273 @@
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<meta name="description" content="Создание сайтов">
+	<meta name="keywords" content="сайты, верстка, фрилансер">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=">
+	<!-- OG Tags -->
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="https://sitename.ru/img/preview.jpg">
+	<meta property="og:site_name" content="FULLVIEWAPP">
+	<!-- Styling -->
+	<link rel="icon" type="image/png" href="img/favicon.svg">
+	<!-- CSS -->
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=<5c09a90c-dbb5-4bb4-9b73-a4403051d64c>&lang=ru_RU" type="text/javascript">
+    </script>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-6 col-lg-3">
+					<a href="index.html" class="logo">
+						<img src="img/logo.png" alt="Логотип" class="logo__img">
+					</a>
+				</div>
+				<div class=" col-lg-5 d-none d-lg-block ">
+					<nav class="menu">
+						<ul class="menu__list d-flex bg-primary ">
+							<li class="menu__items">
+								<a href="index.html" class="menu__item">Главная</a>
+							</li>
+							<li class="menu__items">
+								<a href="shop.html" class="menu__item">Магазин</a>
+							</li>
+							<li class="menu__items">
+								<a href="brands.html" class="menu__item">О бренде</a>
+							</li>
+							<li class="menu__items">
+								<a href="contacts.html" class="menu__item">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-6 col-lg-4 d-flex justify-content-end align-items-center">
+					<button type="button" class="phone">
+						<img src="img/phone.png" alt="Телефон" class="phone__img">
+					</button>
+					<a href="tel:+74958235412" class="phone__number">
+						+7 (495) 823-54-12
+					</a>
+					<a href="busket.html" class="busket">
+						<img src="img/busket.png" alt="Корзина" class="busket-img">
+						<span class="bascet-num">0</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="products">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-12">
+					<h1 class="brands-title">
+						Свитшот Sweet Shot
+					</h1>
+					<ul class="crumbs d-none d-lg-flex">
+						<li class="crumbs__list">
+							<a href="index.html" class="crumbs__item">
+								Главная
+							</a>
+						</li>
+						<li class="crumbs__list">
+							<a href="#" class="crumbs__item">
+								Свитшоты
+							</a>
+						</li>
+						<li class="crumbs__list">
+							<span  class="crumbs__item_span">
+								Свитшот Sweet Shot
+							</span>
+						</li>
+					</ul>
+				</div>
+				<div class="col-12 col-md-6">
+					<img src="img/products.jpg" alt="" class="img-products">
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="price-products">
+						<span class="price-products ">
+							$311
+						</span> 
+						<span class="price-products price-products__sale">
+							$450
+						</span>
+					</div>
+					<p class="size-products">
+							Выберете размер
+					</p> 
+					<div class="buttons-products">
+						<button type="button" class="buttons-products__btn">
+							XS
+						</button>
+						<button type="button" class="buttons-products__btn">
+							S
+						</button>
+						<button type="button" class="buttons-products__btn">
+							M
+						</button>
+						<button type="button" class="buttons-products__btn">
+							L
+						</button>
+						<button type="button" class="buttons-products__btn">
+							XL
+						</button>
+						<p class="size-products">
+							Выберете цвет
+					</p> 
+					<div class="buttons-colors">
+						<button type="button" class="buttons-color buttons-color__grey">
+						</button>
+						<button type="button" class="buttons-color buttons-color__blue">
+						</button>
+						<button type="button" class="buttons-color buttons-color__pink">
+						</button>
+						<button type="button" class="buttons-color  buttons-color__yellow">
+						</button>
+					</div>
+					<div class="btn-products d-flex">
+					<button type="button" class="btn-products__number">
+						1
+					</button>
+					<button type="button" class="btn-products__add btn-green">
+						 Добавить в корзину
+					</button>
+				</div>
+	</section>
+	<section class="similar">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="title-similar">
+						Связанные товары
+					</h2>
+				</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card card_similar">
+							<a href="products.html" class="card__clothes">
+								<img src="img/usa.jpg" alt="Футболка USA" class="card__clothes__img">
+							</a>
+							<h4 class="card__title ">
+								Футболка USA
+							</h4>
+							<span class="card__price">
+								<span class="sale">$229</span> 
+								$129
+							</span>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card card_similar">
+							<a href="products.html" class="card__clothes">
+								<img src="img/glow.jpg" alt="Glow" class="card__clothes__img">
+							</a>
+							<h4 class="card__title">
+								Купальник Glow
+							</h4>
+							<span class="card__price">
+								$129
+							</span>
+						</div>
+					</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-6 col-lg-3">
+					<a href="index.html" class="logo-footer">
+						<img src="img/logo.png" alt="Логотип" class="logo-footer__img">
+					</a>
+					<p class="text-footer">
+						© Все права защищены 
+					</p>	
+					<p class="text-footer text-footer__intro">
+						<a class="text-footer__intro" href="#">Политика конфиденциальности</a>
+					</p>	
+					<p class="text-footer">
+						<a class="text-footer__intro" href="#"> Публичная оферта</a>
+					</p>	
+				</div>
+				<div class="col-lg-5 d-none d-lg-block">
+					<nav class="menu menu-footer">
+						<ul class="menu__list menu-footer__list d-flex bg-primary ">
+							<li class="menu__items  menu-footer__items">
+								<a href="index.html" class="menu__item menu-footer-item">Главная</a>
+							</li>
+							<li class="menu__items menu-footer__items">
+								<a href="shop.html" class="menu__item  menu-footer-item">
+								Магазин
+								</a>
+								<ul class="menu__item-shops">
+									<li class="menu__item-shop">
+										<a href="#" class="menu__item-shop_nav">Пальто</a>
+									</li>
+									<li class="menu__item-shop">
+										<a href="#" class="menu__item-shop_nav">Свитшоты</a>
+									</li>
+									<li class="menu__item-shop">
+										<a href="#" class="menu__item-shop_nav">Кардиганы</a>
+									</li>
+									<li class="menu__item-shop">
+										<a href="#" class="menu__item-shop_nav">Толстовки</a>
+									</li>
+								</ul>
+							</li>
+							<li class="menu__items menu-footer__items">
+								<a href="brands.html" class="menu__item menu-footer-item">О бренде</a>
+							</li>
+							<li class="menu__items menu-footer__items">
+								<a href="contacts.html" class="menu__item menu-footer-item">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-12 col-sm-6 col-lg-4 justify-content-end">
+					<ul class="connection">
+						<li class="connection__list">
+							<a class="connection__list_item" href="tel:+74958235412"> 
+								+7(495)823-54-12 
+							</a>
+						</li>	
+						<li class="connection__list">
+							<a class="connection__list_item" href="mailto:hello@womazing.com"> 
+								hello@womazing.com
+							</a>
+						</li>	
+					</ul>
+					<div class="social d-flex">
+							<!--noindex-->
+						<a href="[https:www.instagram.com/](https://www.instagram.com/)" rel="nofollow noopener noreferrer" target="_blank" class="footer-social">
+							<img src="img/instagram.svg" alt="Instagram" class="footer-social__img">
+						</a>
+							<!-- /noindex -->
+							<!--noindex-->
+						<a href="[https:www.facebook.com/](https://www.facebook.com/)" rel="nofollow noopener noreferrer" target="_blank" class="footer-social">
+							<img src="img/facebook.svg" alt="Facebook" class="footer-social__img">
+						</a>
+								<!-- /noindex -->
+								<!--noindex-->
+						<a href="[https:www.twitter.com/](https://www.twitter.com/)" rel="nofollow noopener noreferrer" target="_blank" class="footer-social">
+							<img src="img/twitter.svg" alt="Twitter" class="footer-social__img">
+						</a>
+								<!-- /noindex -->
+					</div>
+					<a href="#" class="footer-pay">
+						<img src="img/visa.png" alt="Оплатить" class="footer-pay__card">
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	  <script src="js/main.js"></script>
+</body>
+</html>
